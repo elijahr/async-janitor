@@ -25,7 +25,7 @@ import promiseCancel from 'promise-cancel';
  *         .subscribe(this.doCoolThings);
  *
  *       // add a handler for the 'scroll' event on the document
- *       this.janitor.addDOMEvent(document, 'scroll', this.handleScroll);
+ *       this.janitor.addEventListener(document, 'scroll', this.handleScroll);
  *     }
  *
  *     componentWillUnmount() {

@@ -35,7 +35,7 @@ class MyComponent extends React.Component {
       .subscribe(this.doCoolThings);
 
     // add a handler for the 'scroll' event on the document
-    this.janitor.addDOMEvent(document, 'scroll', this.handleScroll);
+    this.janitor.addEventListener(document, 'scroll', this.handleScroll);
   }
 
   componentWillUnmount() {
