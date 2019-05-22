@@ -168,9 +168,13 @@ export default class Janitor {
       return observable.takeUntil(this.cleanupSubject);
     }
     // RxJS 5+
-    // eslint-disable-next-line import/no-extraneous-dependencies, global-require
-    const { takeUntil } = require('rxjs/operators');
-    return observable.pipe(takeUntil(this.cleanupSubject));
+    try {
+      // eslint-disable-next-line import/no-extraneous-dependencies, global-require
+      const { takeUntil } = require('rxjs/operators');
+      return observable.pipe(takeUntil(this.cleanupSubject));
+    } catch (err) {
+      throw new Error('RxJS 5 not importable');
+    }
   }
 
   /**
