@@ -123,14 +123,22 @@ export default class Janitor {
    */
   static getRxJS() {
     // eslint-disable-next-line import/no-extraneous-dependencies, global-require
-    const Rx5 = require('rxjs/Subject');
-    if (Rx5) {
-      return Rx5;
+    try {
+      const Rx5 = require('rxjs/Subject');
+      if (Rx5) {
+        return Rx5;
+      }
+    } catch (e) {
+
     }
     // eslint-disable-next-line import/no-extraneous-dependencies, global-require
-    const Rx4 = require('rx');
-    if (Rx4) {
-      return Rx4;
+    try {
+      const Rx4 = require('rx');
+      if (Rx4) {
+        return Rx4;
+      }
+    } catch (e) {
+
     }
     throw new Error('Could not import RxJS. Is it installed?');
   }
