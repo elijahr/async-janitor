@@ -122,23 +122,23 @@ export default class Janitor {
    * Lazily import RxJS 5+ or 4.
    */
   static getRxJS() {
-    // eslint-disable-next-line import/no-extraneous-dependencies, global-require
     try {
+      // eslint-disable-next-line import/no-extraneous-dependencies, global-require
       const Rx5 = require('rxjs/Subject');
       if (Rx5) {
         return Rx5;
       }
     } catch (e) {
-
+      // error importing Rx5
     }
-    // eslint-disable-next-line import/no-extraneous-dependencies, global-require
     try {
+      // eslint-disable-next-line import/no-extraneous-dependencies, global-require
       const Rx4 = require('rx');
       if (Rx4) {
         return Rx4;
       }
     } catch (e) {
-
+      // error importing Rx4
     }
     throw new Error('Could not import RxJS. Is it installed?');
   }
