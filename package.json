@@ -1,6 +1,6 @@
 {
   "name": "async-janitor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy cleanup for asynchronous code",
   "main": "./lib/index.js",
   "scripts": {
