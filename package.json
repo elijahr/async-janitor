@@ -1,6 +1,6 @@
 {
   "name": "async-janitor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy cleanup for asynchronous code",
   "main": "./lib/index.js",
   "scripts": {
@@ -34,9 +34,9 @@
   "author": "StyleSeat <engineering@styleseat.com>",
   "contributors": [
     {
-      "name" : "Elijah Shaw-Rutschman",
-      "email" : "elijahr@gmail.com",
-      "url" : "http://github.com/elijahr"
+      "name": "Elijah Shaw-Rutschman",
+      "email": "elijahr@gmail.com",
+      "url": "http://github.com/elijahr"
     }
   ],
   "license": "MIT",
