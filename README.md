@@ -67,4 +67,4 @@ $ npm install --only=dev
 
 # License
 
-MIT © Elijah Shaw-Rutschman
+MIT © StyleSeat

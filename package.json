@@ -31,7 +31,14 @@
     "node",
     "javascript"
   ],
-  "author": "Elijah Shaw-Rutschman <elijahr@gmail.com>",
+  "author": "StyleSeat <engineering@styleseat.com>",
+  "contributors": [
+    {
+      "name" : "Elijah Shaw-Rutschman",
+      "email" : "elijahr@gmail.com",
+      "url" : "http://github.com/elijahr"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/elijahr/async-janitor/issues"
