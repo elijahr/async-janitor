@@ -1,6 +1,6 @@
 # async-janitor
 
-[![Build Status](https://travis-ci.org/elijahr/async-janitor.svg?branch=master)](https://travis-ci.org/elijahr/async-janitor) [![dependencies Status](https://david-dm.org/elijahr/async-janitor/status.svg)](https://david-dm.org/elijahr/async-janitor) [![devDependencies Status](https://david-dm.org/elijahr/async-janitor/dev-status.svg)](https://david-dm.org/elijahr/async-janitor?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/styleseat/async-janitor.svg?branch=master)](https://travis-ci.org/styleseat/async-janitor) [![dependencies Status](https://david-dm.org/styleseat/async-janitor/status.svg)](https://david-dm.org/styleseat/async-janitor) [![devDependencies Status](https://david-dm.org/styleseat/async-janitor/dev-status.svg)](https://david-dm.org/styleseat/async-janitor?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 **Easily cancel callbacks for promises, timers, and observables** ✨
 

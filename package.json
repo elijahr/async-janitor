@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elijahr/async-janitor.git"
+    "url": "git+https://github.com/styleseat/async-janitor.git"
   },
   "keywords": [
     "async",
@@ -41,9 +41,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elijahr/async-janitor/issues"
+    "url": "https://github.com/styleseat/async-janitor/issues"
   },
-  "homepage": "https://github.com/elijahr/async-janitor#readme",
+  "homepage": "https://github.com/styleseat/async-janitor#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
